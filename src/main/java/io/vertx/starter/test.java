@@ -42,7 +42,7 @@ public class test {
                 String clntId = rs.getString("clnt_id");
                 String clntSecret = rs.getString("clnt_scrt");
                 String svrInfo = rs.getString("svr_info");
-                info  = new SvrDTO(clntId,clntSecret, svrInfo );
+                info  = new SvrDTO(clntId,clntSecret, svrInfo,"" );
                 list.add(info);
             }
         }
